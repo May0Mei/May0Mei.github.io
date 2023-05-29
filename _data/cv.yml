@@ -1,97 +1,82 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Princeton University
+      year: 2022 - Present
+      description: 
+      - PhD, Mechanical and Aerospace Engineering
+    - title: Duke University
+      institution: 
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - BSE, Mechanical Engineering
+        - BS, Physics
+        - Certificate, Innovation and Entrepreneurship
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Princeton Intelligent Robot Motion Lab
+      institution: <a href="https://irom-lab.princeton.edu/majumdar/">Anirudha Majumdar</a>
+      year: Jun. 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - My research aims to approach robotics through a fundamental science’s perspective. My work applies concepts and theories in information theory to quantify performance of robotic systems with arbitrary dynamics, tasks, and control strategies, given their sensing capabilities and computational constraints. I am also interested in applying these theories in the design and implementation of robotics.
+    
+    - title: Duke Pratt Fellows
+      institution: <a href="https://scholars.duke.edu/person/stefan.goetz">Stefan Goetz</a>
+      year: Dec. 2020 — May. 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Developed theories and simulations on control and optimization of lattice modular multilevel converters with serial and parallel connectivity. Obtained most efficient control algorithms for lattice converters under requirements (converter size, input/output terminals, and output voltage/current).
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Duke Neutrino & Cosmology Group
+      institution: <a href="https://scholars.duke.edu/person/schol">Kate Scholberg</a>
+      year: Nov. 2019 — Feb. 2021
+      description: 
+        - Worked on SNEWS (Supernova Early Warning System), produced sky maps with predicted supernova location and uncertainty intervals. Analyzed neutrino events detected at the Super-Kamiokande Detector.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+- title: Work and Leadership Experience
+  type: time_table
+  contents: 
+    - title: DukeEngage in Detroit
+      institution: Consulting Intern, TechTown Detroit
+      year: Jun. 2021 — Aug. 2021
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Analyzed TechTown programs via interviews with program directors and clients.
+        - Provided suggestions for improving each program as well as recommendations for potential collaborations across programs.
+        -  Served as peer mentor for 12 student entrepreneurs for Launch Detroit, a summer entrepreneurship camp for technology-oriented college students.
+    
+    - title: Duke Motorsports Team
+      institution: Wheels Subsystem Lead 
+      year: Sept. 2019 — Present
+      description:
+        - Engaged other students to build and assemble wheels for the car competing in 2020 and 2021.
+        - Designed, modified, and performed analysis on the wheels for the car competing in 2021.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/irom-lab/performance-limits">Fundamental Limits for Sensor-Based Robot Control</a>
+      year: 2022 - 2023
+      description: Our goal is to develop theory and algorithms for establishing fundamental limits on performance for a given task imposed by a robot's sensors. In order to achieve this, we define a quantity that captures the amount of task-relevant information provided by a sensor. Using a novel version of the generalized Fano inequality from information theory, we demonstrate that this quantity provides an upper bound on the highest achievable expected reward for one-step decision making tasks. We then extend this bound to multi-step problems via a dynamic programming approach. We present algorithms for numerically computing the resulting bounds, and demonstrate our approach on three examples, (i) the lava problem from the literature on partially observable Markov decision processes, (ii) an example with continuous state and observation spaces corresponding to a robot catching a freely-falling object, and (iii) obstacle avoidance using a depth sensor with non-Gaussian noise. We demonstrate the ability of our approach to establish strong limits on achievable performance for these problems by comparing our upper bounds with achievable lower bounds (computed by synthesizing or learning concrete control policies).
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - year: Graduate
+      items: 
+        - Francis Robins Upton Fellowship (2022)
+    - year: Undergraduate
+      items: 
+        - Dean's List with Distinction (2018, 2019, 2021)
+        - "Engineering Honor Societies:<u> Tau Beta Pi, Pi Tau Sigma"
+        - Graduation with Distinction (2022)
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Languages: Mandarin (Native), Japanese (Intermediate)."
+    - "Graduate Activities: Princeton Synchronized Figure Skating Club, Princeton HUA Chinese Dance Group"
+    - "Undergraduate Activities: Duke Anime Club (Founder), Duke Chinese Student Association (Treasurer)."
+    - "Interests: Drawing, Graphic Design, Figure Skating, Piano, Guitar, Chinese Dance."

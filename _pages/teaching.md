@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: My teaching assistance experiences.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+### Duke University
+- ME 344: Control Systems
+    - [Prof. Leila Bridgeman](https://mems.duke.edu/faculty/leila-bridgeman)
+- EGR 201: Solid Mechanics
+    - [Prof. Joseph Nadeau](https://cee.duke.edu/faculty/joseph-nadeau)
+    - [Prof. Henri Gavin](https://cee.duke.edu/faculty/henri-gavin)
+- Physics 141: Introductory Physics
+    - [Prof. Robert Brown](http://rgbrown.org/)
+- Math 221: Linear Algebra
+    - [Prof. Heekyoung Hahn](https://scholars.duke.edu/person/heekyoung.hahn)
+- Math 212: Multivariable Calculus
+    - [Prof. Clark Bray](https://scholars.duke.edu/person/cbray)

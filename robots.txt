@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://may0mei.github.io/sitemap.xml
+Sitemap: https://May0Mei.github.io/sitemap.xml

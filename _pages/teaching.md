@@ -7,6 +7,10 @@ nav: true
 nav_order: 6
 ---
 
+### Princeton University
+- MAE 345/549: Introduction to Robotics
+    - [Prof. Radhika Nagpal](https://www.radhikanagpal.org/)
+
 ### Duke University
 - ME 344: Control Systems
     - [Prof. Leila Bridgeman](https://mems.duke.edu/faculty/leila-bridgeman)

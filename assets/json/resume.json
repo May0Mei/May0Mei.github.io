@@ -1,18 +1,17 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Zhiting (May) Mei",
+    "label": "Ph.D. Candidate in Mechanical and Aerospace Engineering",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "maymei@princeton.edu",
+    "phone": "(919) 491-0648",
+    "url": "https://may0mei.github.io/",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "J111 EQuad, Olden Street, Princeton University",
+      "postalCode": "NJ 08540",
+      "city": "Princeton",
       "countryCode": "US",
-      "region": "California"
+      "region": "New Jersey"
     },
     "profiles": [
       {
@@ -22,6 +21,9 @@
       }
     ]
   },
+  "research interest": [
+    {"summary": "My research approaches robotics through the perspective of fundamental science and aims to address the gap between specialist and generalist robots by establishing upper and lower bounds on robotics. \n Upper Bound: I find fundamental limitations in robotics that plays a similar role as information theory and complexity theory. These upper bounds hold regardless of the advance of robot algorithms and therefore serve as an important guideline in improving robotics.\n Lower Bound: I construct guarantees and assurances on safety and performance of specific robotics problems and generalize them to broader scenarios. I achieve this by rigorous uncertainty quantification."}
+  ],
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
@@ -47,15 +49,22 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Princeton University, Princeton, NJ",
+      "location": "Princeton, NJ",
+      "url": "https://www.princeton.edu/",
+      "area": "Robotics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "Jun 2022",
+      "endDate": "May 2027"
+    },
+    {
+      "institution": "Duke University, Durham, NC",
+      "location": "Durham, NC",
+      "url": "https://www.duke.edu/",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "Aug 2018",
+      "endDate": "May 2022",
     }
   ],
   "awards": [

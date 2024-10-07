@@ -1,21 +1,14 @@
-
-@article{dixit_perceive_2024,
-	title = {Perceive {With} {Confidence}: {Statistical} {Safety} {Assurances} for {Navigation} with {Learning}-{Based} {Perception}},
-	shorttitle = {Perceive {With} {Confidence}},
-	url = {http://arxiv.org/abs/2403.08185},
-	doi = {https://doi.org/10.48550/arXiv.2403.08185},
-	html = {http://arxiv.org/abs/2403.08185},
-	abstract = {Rapid advances in perception have enabled large pre-trained models to be used out of the box for processing high-dimensional, noisy, and partial observations of the world into rich geometric representations (e.g., occupancy predictions). However, safe integration of these models onto robots remains challenging due to a lack of reliable performance in unfamiliar environments. In this work, we present a framework for rigorously quantifying the uncertainty of pre-trained perception models for occupancy prediction in order to provide end-to-end statistical safety assurances for navigation. We build on techniques from conformal prediction for producing a calibrated perception system that lightly processes the outputs of a pre-trained model while ensuring generalization to novel environments and robustness to distribution shifts in states when perceptual outputs are used in conjunction with a planner. The calibrated system can be used in combination with any safe planner to provide an end-to-end statistical assurance on safety in a new environment with a user-specified threshold \$1-{\textbackslash}epsilon\$. We evaluate the resulting approach - which we refer to as Perceive with Confidence (PwC) - with experiments in simulation and on hardware where a quadruped robot navigates through indoor environments containing objects unseen during training or calibration. These experiments validate the safety assurances provided by PwC and demonstrate significant improvements in empirical safety rates compared to baselines.},
-	urldate = {2024-03-14},
-	publisher = {arXiv},
-	author = {Dixit, Anushri and Mei, Zhiting and Booker, Meghan and Storey-Matsutani, Mariko and Ren, Allen Z. and Majumdar, Anirudha},
-	month = mar,
-	year = {2024},
-	note = {arXiv:2403.08185 [cs, eess]},
-	keywords = {Computer Science - Robotics, Electrical Engineering and Systems Science - Systems and Control},
-	file = {arXiv Fulltext PDF:/Users/dell/Zotero/storage/7TBQEF7N/Dixit et al. - 2024 - Perceive With Confidence Statistical Safety Assur.pdf:application/pdf;arXiv.org Snapshot:/Users/dell/Zotero/storage/N3LHRP66/2403.html:text/html},
-	selected = {true},
-	preview = {PwC.png}
+@inproceedings{dixit2024perceive,
+  title={Perceive with confidence: Statistical safety assurances for navigation with learning-based perception},
+  author={Dixit, Anushri and Mei, Zhiting and Booker, Meghan and Storey-Matsutani, Mariko and Ren, Allen Z and Majumdar, Anirudha},
+  booktitle={8th Annual Conference on Robot Learning},
+  abstract = {Rapid advances in perception have enabled large pre-trained models to be used out of the box for processing high-dimensional, noisy, and partial observations of the world into rich geometric representations (e.g., occupancy predictions). However, safe integration of these models onto robots remains challenging due to a lack of reliable performance in unfamiliar environments. In this work, we present a framework for rigorously quantifying the uncertainty of pre-trained perception models for occupancy prediction in order to provide end-to-end statistical safety assurances for navigation. We build on techniques from conformal prediction for producing a calibrated perception system that lightly processes the outputs of a pre-trained model while ensuring generalization to novel environments and robustness to distribution shifts in states when perceptual outputs are used in conjunction with a planner. The calibrated system can be used in combination with any safe planner to provide an end-to-end statistical assurance on safety in a new environment with a user-specified threshold \$1-{\textbackslash}epsilon\$. We evaluate the resulting approach - which we refer to as Perceive with Confidence (PwC) - with experiments in simulation and on hardware where a quadruped robot navigates through indoor environments containing objects unseen during training or calibration. These experiments validate the safety assurances provided by PwC and demonstrate significant improvements in empirical safety rates compared to baselines.},
+  year={2024},
+  url = {https://openreview.net/forum?id=cDXnnOhNrF},
+  html = {https://openreview.net/forum?id=cDXnnOhNrF},
+  selected = {true},
+  preview = {PwC.png},
+  pdf = {PerceiveWithConfidence.pdf}
 }
 
 

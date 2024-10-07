@@ -1,3 +1,11 @@
+- title: Research Interest
+  type: list
+  contents: 
+        - My research approaches robotics through the perspective of fundamental science and aims to address the gap between specialist and generalist robots by establishing upper and lower bounds on robotics. 
+        - "Upper Bound: I find fundamental limitations in robotics that plays a similar role as information theory and complexity theory. These upper bounds hold regardless of the advance of robot algorithms and therefore serve as an important guideline in improving robotics."
+        - "Lower Bound: I construct guarantees and assurances on safety and performance of specific robotics problems and generalize them to broader scenarios. I achieve this by rigorous uncertainty quantification."
+
+
 - title: Education
   type: time_table
   contents:
@@ -5,6 +13,9 @@
       year: 2022 - Present
       description: 
       - PhD, Mechanical and Aerospace Engineering
+      - Francis Robins Upton Fellowship
+      - Phillips Second-Year Fellowship
+      - Harari Post-generals Fellowship
     - title: Duke University
       institution: 
       year: 2018 - 2022
@@ -12,6 +23,7 @@
         - BSE, Mechanical Engineering
         - BS, Physics
         - Certificate, Innovation and Entrepreneurship
+        - Magna Cum Laude; Graduation with Distinction
 
 - title: Research Experience
   type: time_table
@@ -20,19 +32,26 @@
       institution: <a href="https://irom-lab.princeton.edu/majumdar/">Anirudha Majumdar</a>
       year: Jun. 2022 - Present
       description:
-        - My research aims to approach robotics through a fundamental science’s perspective. My work applies concepts and theories in information theory to quantify performance of robotic systems with arbitrary dynamics, tasks, and control strategies, given their sensing capabilities and computational constraints. I am also interested in applying these theories in the design and implementation of robotics.
+        - Derive an information theoretic fundamental upper bound on robot performance, given the robot’s task and sensing capabilities. Generalize and tighten this bound with f-divergence. Show that the fundamental bound holds for robot systems of increasing complexity and intelligence.
+        - Prove an upper limit for language-instructed autonomy. Show that the ambiguity in language itself would lead to imperfect behavior, regardless of scaling of the large language models leveraged. Estimate the upper limit on realistic home robot scenarios.
+        - Establish end-to-end safety assurances on robot navigation with learned perception modules, by performing rigorous uncertainty quantification. Use conformal prediction to calibrate the learned perception module. Apply safe motion planning algorithms to achieve end-to-end safety guarantee. Extend bounding box representations for obstacles to occupancy grids for more generality. Implement the framework on a quadruped hardware and show its advantages with experiments.
+        - Using uncertainty quantification, guide active perception and exploration while maintaining safety.
+
+        
     
     - title: Duke Pratt Fellows
       institution: <a href="https://scholars.duke.edu/person/stefan.goetz">Stefan Goetz</a>
       year: Dec. 2020 — May. 2022
       description:
-        - Developed theories and simulations on control and optimization of lattice modular multilevel converters with serial and parallel connectivity. Obtained most efficient control algorithms for lattice converters under requirements (converter size, input/output terminals, and output voltage/current).
+        - Develop theories and simulations on control and optimization of lattice modular multilevel converters with serial and parallel connectivity. 
+        - Obtain most efficient control algorithms for lattice converters under requirements including converter size, input/output terminals, and output voltage/current.
 
     - title: Duke Neutrino & Cosmology Group
       institution: <a href="https://scholars.duke.edu/person/schol">Kate Scholberg</a>
       year: Nov. 2019 — Feb. 2021
       description: 
-        - Worked on SNEWS (Supernova Early Warning System), produced sky maps with predicted supernova location and uncertainty intervals. Analyzed neutrino events detected at the Super-Kamiokande Detector.
+        - Qork on SNEWS (Supernova Early Warning System), produce sky maps with predicted supernova location and uncertainty intervals. 
+        - Analyze neutrino events detected at the Super-Kamiokande Detector.
 
 - title: Work and Leadership Experience
   type: time_table
@@ -58,6 +77,9 @@
     - title: <a href="https://github.com/irom-lab/performance-limits">Fundamental Limits for Sensor-Based Robot Control</a>
       year: 2022 - 2023
       description: Our goal is to develop theory and algorithms for establishing fundamental limits on performance for a given task imposed by a robot's sensors. In order to achieve this, we define a quantity that captures the amount of task-relevant information provided by a sensor. Using a novel version of the generalized Fano inequality from information theory, we demonstrate that this quantity provides an upper bound on the highest achievable expected reward for one-step decision making tasks. We then extend this bound to multi-step problems via a dynamic programming approach. We present algorithms for numerically computing the resulting bounds, and demonstrate our approach on three examples, (i) the lava problem from the literature on partially observable Markov decision processes, (ii) an example with continuous state and observation spaces corresponding to a robot catching a freely-falling object, and (iii) obstacle avoidance using a depth sensor with non-Gaussian noise. We demonstrate the ability of our approach to establish strong limits on achievable performance for these problems by comparing our upper bounds with achievable lower bounds (computed by synthesizing or learning concrete control policies).
+    - title: <a href="https://github.com/irom-lab/perception-guarantees">Perceive with Confidence | End-to-End Safety Assurances for Robot Navigation</a>
+      year: 2023 - 2024
+      description: Rapid advances in perception have enabled large pre-trained models to be used out of the box for processing high-dimensional, noisy, and partial observations of the world into rich geometric representations (e.g., occupancy predictions). However, safe integration of these models onto robots remains challenging due to a lack of reliable performance in unfamiliar environments. In this work, we present a framework for rigorously quantifying the uncertainty of pre-trained perception models for occupancy prediction in order to provide end-to-end statistical safety assurances for navigation. We build on techniques from conformal prediction for producing a calibrated perception system that lightly processes the outputs of a pre-trained model while ensuring generalization to novel environments and robustness to distribution shifts in states when perceptual outputs are used in conjunction with a planner. The calibrated system can be used in combination with any safe planner to provide an end-to-end statistical assurance on safety in a new environment with a user-specified threshold 1-epsilon. We evaluate the resulting approach — which we refer to as Perceive with Confidence (PwC) - with experiments in simulation and on hardware where a quadruped robot navigates through indoor environments containing objects unseen during training or calibration. These experiments validate the safety assurances provided by PwC and demonstrate significant improvements in empirical safety rates compared to baselines.
 
 
 - title: Honors and Awards
@@ -65,8 +87,9 @@
   contents:
     - year: Graduate
       items: 
-        - Francis Robins Upton Fellowship (2022)
+        - Harari Post-generals Fellowship (2024)
         - Phillips Fellowship (2023)
+        - Francis Robins Upton Fellowship (2022)
     - year: Undergraduate
       items: 
         - Dean's List with Distinction (2018, 2019, 2021)
@@ -77,7 +100,7 @@
 - title: Other Interests
   type: list
   contents:
-    - "Languages: Mandarin (Native), Japanese (Intermediate)."
+    - "Languages: Mandarin (Native), Japanese (Fluent)."
     - "Graduate Activities: Princeton Synchronized Figure Skating Club, Princeton HUA Chinese Dance Group"
     - "Undergraduate Activities: Duke Anime Club (Founder), Duke Chinese Student Association (Treasurer)."
     - "Interests: Drawing, Graphic Design, Figure Skating, Piano, Guitar, Chinese Dance."

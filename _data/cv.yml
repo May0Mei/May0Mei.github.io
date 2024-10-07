@@ -1,9 +1,9 @@
 - title: Research Interest
   type: list
   contents: 
-        - My research approaches robotics through the perspective of fundamental science and aims to address the gap between specialist and generalist robots by establishing upper and lower bounds on robotics. 
-        - "Upper Bound: I find fundamental limitations in robotics that plays a similar role as information theory and complexity theory. These upper bounds hold regardless of the advance of robot algorithms and therefore serve as an important guideline in improving robotics."
-        - "Lower Bound: I construct guarantees and assurances on safety and performance of specific robotics problems and generalize them to broader scenarios. I achieve this by rigorous uncertainty quantification."
+        - My research approaches robotics from a fundamental science perspective, aiming to bridge the gap between specialist and generalist robots by establishing upper and lower bounds on robotics. 
+        - "Upper Bound: I explore fundamental limitations inherent in robotic systems that hold regardless of advancements in algorithms or learned policies. "
+        - "Lower Bound: I develop safety and performance assurances when robots are generalized to unseen environments and tasks, via rigorous uncertainty quantification."
 
 
 - title: Education

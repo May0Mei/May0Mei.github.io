@@ -32,9 +32,10 @@
       institution: <a href="https://irom-lab.princeton.edu/majumdar/">Anirudha Majumdar</a>
       year: Jun. 2022 - Present
       description:
-        - Derive an information theoretic fundamental upper bound on robot performance, given the robot’s task and sensing capabilities. Generalize and tighten this bound with f-divergence. Show that the fundamental bound holds for robot systems of increasing complexity and intelligence.
-        - Prove an upper limit for language-instructed autonomy. Show that the ambiguity in language itself would lead to imperfect behavior, regardless of scaling of the large language models leveraged. Estimate the upper limit on realistic home robot scenarios.
-        - Establish end-to-end safety assurances on robot navigation with learned perception modules, by performing rigorous uncertainty quantification. Use conformal prediction to calibrate the learned perception module. Apply safe motion planning algorithms to achieve end-to-end safety guarantee. Extend bounding box representations for obstacles to occupancy grids for more generality. Implement the framework on a quadruped hardware and show its advantages with experiments.
+        - Derived an information theoretic fundamental upper bound on robot performance, given the robot’s task and sensing capabilities. Generalized and tightened this bound with f-divergence. Showed that the fundamental bound holds for robot systems of increasing complexity and intelligence.
+        - Proved an upper limit for language-instructed autonomy. Showed that the ambiguity in language itself would lead to imperfect behavior, regardless of scaling of the large language models leveraged. Estimate the upper limit on realistic home robot scenarios.
+        - Established end-to-end safety assurances for robot navigation via rigorous uncertainty quantification on learned perception modules. 
+        - Hardware demonstration with the Unitree Go1 quadruped robot.
         - Using uncertainty quantification, guide active perception and exploration while maintaining safety.
 
         

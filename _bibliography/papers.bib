@@ -1,14 +1,70 @@
+
+@misc{feng2025verdivlmembeddedreasoningautonomous,
+      title={VERDI: VLM-Embedded Reasoning for Autonomous Driving}, 
+      author={Zhiting Mei* and Bowen Feng* and Baiang Li and Julian Ost and Roger Girgis and Anirudha Majumdar and Felix Heide},
+      year={2025},
+      eprint={2505.15925},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+	  selected = {true},
+      url={https://arxiv.org/abs/2505.15925}, 
+	  pdf={https://arxiv.org/abs/2505.15925}, 
+	  website={https://verdi-driving.github.io/},
+	  preview={verdi.png},
+}
+
+@misc{mei2025perceiveconfidencestatisticalsafety,
+      title={Perceive With Confidence: Statistical Safety Assurances for Navigation with Learning-Based Perception}, 
+      author={Zhiting Mei and Anushri Dixit and Meghan Booker and Emily Zhou and Mariko Storey-Matsutani and Allen Z. Ren and Ola Shorinwa and Anirudha Majumdar},
+      year={2025},
+      eprint={2403.08185},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+	  selected = {true},
+      url={https://arxiv.org/abs/2403.08185}, 
+	  pdf={https://arxiv.org/abs/2403.08185}, 
+	  website={https://perceive-with-confidence.github.io/},
+      code={https://github.com/irom-princeton/perception-guarantees},
+	  preview={pwc-ijrr.png},
+}
+
+@misc{yin2025womapworldmodelsforembodied,
+      title={WoMAP: World Models for Embodied Open-Vocabulary Object Localization}, 
+      author={Tenny Yin* and Zhiting Mei and Tao Sun and Lihan Zha and Jeremy Bao† and Miyu Yamane† and Emily Zhou† and Ola Shorinwa* and Anirudha Majumdar},
+      year={2025},
+      eprint={},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={}, 
+	  pdf={},
+	  website={https://robot-driving.github.io/},
+	  preview={womap.png},
+}
+
+@misc{shorinwa2024surveyuncertaintyquantificationlarge,
+      title={A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions}, 
+      author={Ola Shorinwa and Zhiting Mei and Justin Lidard and Allen Z. Ren and Anirudha Majumdar},
+      year={2024},
+      eprint={2412.05563},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+	  selected = {true},
+      url={https://arxiv.org/abs/2412.05563}, 
+	  pdf={https://arxiv.org/abs/2412.05563}, 
+	  preview={uq_for_llms.png},
+}
+
 @inproceedings{dixit2024perceive,
   title={Perceive with confidence: Statistical safety assurances for navigation with learning-based perception},
   author={Dixit, Anushri and Mei, Zhiting and Booker, Meghan and Storey-Matsutani, Mariko and Ren, Allen Z and Majumdar, Anirudha},
   booktitle={8th Annual Conference on Robot Learning},
-  abstract = {Rapid advances in perception have enabled large pre-trained models to be used out of the box for processing high-dimensional, noisy, and partial observations of the world into rich geometric representations (e.g., occupancy predictions). However, safe integration of these models onto robots remains challenging due to a lack of reliable performance in unfamiliar environments. In this work, we present a framework for rigorously quantifying the uncertainty of pre-trained perception models for occupancy prediction in order to provide end-to-end statistical safety assurances for navigation. We build on techniques from conformal prediction for producing a calibrated perception system that lightly processes the outputs of a pre-trained model while ensuring generalization to novel environments and robustness to distribution shifts in states when perceptual outputs are used in conjunction with a planner. The calibrated system can be used in combination with any safe planner to provide an end-to-end statistical assurance on safety in a new environment with a user-specified threshold \$1-{\textbackslash}epsilon\$. We evaluate the resulting approach - which we refer to as Perceive with Confidence (PwC) - with experiments in simulation and on hardware where a quadruped robot navigates through indoor environments containing objects unseen during training or calibration. These experiments validate the safety assurances provided by PwC and demonstrate significant improvements in empirical safety rates compared to baselines.},
   year={2024},
   url = {https://openreview.net/forum?id=cDXnnOhNrF},
-  html = {https://openreview.net/forum?id=cDXnnOhNrF},
   selected = {true},
   preview = {PwC.png},
-  pdf = {PerceiveWithConfidence.pdf}
+  pdf = {https://openreview.net/forum?id=cDXnnOhNrF},
+  website={https://perceive-with-confidence.github.io/},
+  code={https://github.com/irom-princeton/perception-guarantees},
 }
 
 
@@ -16,18 +72,16 @@
 	title = {Fundamental {Limits} for {Sensor}-{Based} {Robot} {Control}},
 	url = {https://journals.sagepub.com/doi/abs/10.1177/02783649231190947},
 	doi = {https://doi.org/10.1177/02783649231190947},
-	html = {https://journals.sagepub.com/doi/abs/10.1177/02783649231190947},
-	pdf ={FundamentalLimitsArxiv.pdf},
-	abstract = {Our goal is to develop theory and algorithms for establishing fundamental limits on performance for a given task imposed by a robot's sensors. In order to achieve this, we define a quantity that captures the amount of task-relevant information provided by a sensor. Using a novel version of the generalized Fano inequality from information theory, we demonstrate that this quantity provides an upper bound on the highest achievable expected reward for one-step decision making tasks. We then extend this bound to multi-step problems via a dynamic programming approach. We present algorithms for numerically computing the resulting bounds, and demonstrate our approach on three examples: (i) the lava problem from the literature on partially observable Markov decision processes, (ii) an example with continuous state and observation spaces corresponding to a robot catching a freely-falling object, and (iii) obstacle avoidance using a depth sensor with non-Gaussian noise. We demonstrate the ability of our approach to establish strong limits on achievable performance for these problems by comparing our upper bounds with achievable lower bounds (computed by synthesizing or learning concrete control policies).},
+	pdf ={https://journals.sagepub.com/doi/abs/10.1177/02783649231190947},
 	urldate = {2023-08-24},
 	journal = {The International Journal of Robotics Research (IJRR)},
 	author = {Majumdar, Anirudha and Mei, Zhiting and Pacelli, Vincent},
 	month = aug,
 	year = {2023},
 	keywords = {Computer Science - Artificial Intelligence, Computer Science - Information Theory, Computer Science - Machine Learning, Computer Science - Robotics, Mathematics - Optimization and Control, notion},
-	file = {arXiv Fulltext PDF:/Users/dell/Zotero/storage/B22SPW2X/Majumdar et al. - 2023 - Fundamental Limits for Sensor-Based Robot Control.pdf:application/pdf;arXiv.org Snapshot:/Users/dell/Zotero/storage/743TAFC7/2202.html:text/html},
 	selected = {true},
-	preview={lava_results_f.png}
+	preview={lava_results_f.png},
+	code={https://github.com/irom-princeton/performance-limits},
 }
 
 
@@ -38,8 +92,7 @@
 	copyright = {http://creativecommons.org/licenses/by/3.0/},
 	issn = {2079-9292},
 	url = {https://www.mdpi.com/2079-9292/11/4/594},
-	html = {https://www.mdpi.com/2079-9292/11/4/594},
-	pdf = {LatticeConverter.pdf},
+	pdf = {https://www.mdpi.com/2079-9292/11/4/594},
 	doi = {10.3390/electronics11040594},
 	abstract = {Multilevel converters continue their upward trend in renewable generation, electric vehicles, and power quality conditioning applications. Despite having satisfactory voltage capabilities, mainstream multilevel converters suffer from poor current sharing performances, thereby leading to the development of lattice converters, i.e., a strong and versatile type of future multilevel power converters. This article addresses two problems faced by lattice converters. First, we propose and detail how to optimize the efficiency of a given lattice converter by controlling the on/off states of H-bridge submodules. Second, we introduce the method that determines the voltage at each node of the converter in order to satisfy output voltage and current requirements. Design and analysis of lattice converters need a different mathematical toolbox than routinely exercised in power electronics. By use of graph theory, this article provides control methods of 3 × 3 and 4 × 4 lattice converters, satisfying various control objectives such as input/output terminals and output voltages. We further validate the methods with simulation results. The methodologies, algorithms, and special cases described in the article will aid further design and refinement of more efficient and easy-to-control lattice converters.},
 	language = {en},
@@ -51,7 +104,6 @@
 	year = {2022},
 	keywords = {cascaded-bridge converters (CBCs), efficiency optimization, lattice converters, modular multilevel converters (MMCs), switched-capacitor converters, topology},
 	pages = {594},
-	file = {Full Text:/Users/dell/Zotero/storage/6J8X45E7/Mei et al. - 2022 - Control and Optimization of Lattice Converters.pdf:application/pdf},
-	selected = {true},
+	selected = {false},
 	preview = {3x3wiring.png}
 }

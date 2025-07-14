@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://irom-lab.princeton.edu/'>IRoM Lab </a> | maymei@princeton.edu
 

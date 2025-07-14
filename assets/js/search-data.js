@@ -4,13 +4,13 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -24,14 +24,14 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "My teaching assistance experiences.",
           section: "Navigation",
           handler: () => {
@@ -394,7 +394,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-regrexion",
+          section: "News",},{id: "projects-cosplay",
+          title: 'Cosplay',
+          description: "Yes I&#39;m also a cosplayer 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cosplay.html";
+            },},{id: "projects-regrexion",
           title: 'RegreXion',
           description: "A game I&#39;m developing :)",
           section: "Projects",handler: () => {

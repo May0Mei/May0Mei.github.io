@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Projects
+title: Side Projects
 permalink: /projects/
 description: A collection of my cool side projects.
 nav: true
-nav_order: 3
+nav_order: 5
 # display_categories: [graphics, fun]
 horizontal: false
 ---

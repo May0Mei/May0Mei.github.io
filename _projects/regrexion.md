@@ -11,7 +11,7 @@ related_publications: false
 
 <div class="row justify-content-sm-center mb-5">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/regrexion/WHatWeDo.jpg" title="what we do" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/regrexion/WhatWeDo.jpg" title="what we do" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <h3 style="color: #B1776F;">A Narrative-Based Adventure Beyond Words</h3>
@@ -47,7 +47,7 @@ related_publications: false
         {% include figure.liquid loading="eager" path="assets/img/regrexion/Ruins-postcard.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/regrexion/Mushroom_watercolor-postcard.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/regrexion/Mushroom_watercolor-postcard.PNG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -57,13 +57,13 @@ related_publications: false
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/regrexion/PoVXChurch-postcard.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/regrexion/PovXChurch-postcard.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/regrexion/Z-fate-print.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/regrexion/MM-postcard.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/regrexion/MM-postcard.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
@@ -74,7 +74,7 @@ related_publications: false
         {% include figure.liquid loading="eager" path="assets/img/regrexion/ZMucha-bookmark.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/regrexion/PoVLookingDown-bookmark.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/regrexion/PovLookingDown-bookmark.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

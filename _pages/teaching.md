@@ -10,6 +10,7 @@ nav_order: 4
 ### Princeton University
 - MAE 345/549: Introduction to Robotics
     - [Prof. Radhika Nagpal](https://www.radhikanagpal.org/)
+    - [Prof. Anirudha Majumdar](https://irom-lab.princeton.edu/majumdar)
 
 ### Duke University
 - ME 344: Control Systems

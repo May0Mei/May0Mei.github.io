@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a third-year PhD Student at [IRoM Lab](https://irom-lab.princeton.edu/) in [Princeton](https://www.princeton.edu/).
+Hi! I'm a fourth-year PhD Student at [IRoM Lab](https://irom-lab.princeton.edu/) in [Princeton](https://www.princeton.edu/).
 
 My research approaches robotics through the perspective of fundamental science and aims to address the gap between specialist and generalist robots by establishing upper and lower bounds on robotics. 
 

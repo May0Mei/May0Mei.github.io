@@ -1,10 +1,7 @@
 - title: Research Interest
   type: list
   contents: 
-        - My research approaches robotics from a fundamental science perspective, aiming to bridge the gap between specialist and generalist robots by establishing upper and lower bounds on robotics. 
-        - "Upper Bound: I explore fundamental limitations inherent in robotic systems that hold regardless of advancements in algorithms or learned policies. "
-        - "Lower Bound: I develop safety and performance assurances when robots are generalized to unseen environments and tasks, via rigorous uncertainty quantification."
-
+        - My research approaches robotics from both theoretical and practical perspectives, aiming to bridge the gap between specialist and generalist robots by understanding and improving generalization limits across perception, prediction, and reasoning. Across these domains, I derive theoretical bounds on sensor-based and language-instructed autonomy, establish safety assurances via rigorous uncertainty quantification, probe generalizability of foundation models, and derive novel uncertainty quantification methods, improving both the performance and calibration of embodied AI.
 
 - title: Education
   type: time_table
@@ -30,36 +27,28 @@
   contents:
     - title: Princeton Intelligent Robot Motion Lab
       institution: <a href="https://irom-lab.princeton.edu/majumdar/">Anirudha Majumdar</a>
-      year: Jun. 2022 - Present
+      year: 2022 - Present
       description:
-        - Derived an information theoretic fundamental upper bound on robot performance, given the robot’s task and sensing capabilities. Generalized and tightened this bound with f-divergence. Showed that the fundamental bound holds for robot systems of increasing complexity and intelligence.
-        - Proved an upper limit for language-instructed autonomy. Showed that the ambiguity in language itself would lead to imperfect behavior, regardless of scaling of the large language models leveraged. Estimate the upper limit on realistic home robot scenarios.
-        - Established end-to-end safety assurances for robot navigation via rigorous uncertainty quantification on learned perception modules. 
-        - Hardware demonstration with the Unitree Go1 quadruped robot.
-        - Using uncertainty quantification, guide active perception and exploration while maintaining safety.
-
+        - My research explores how robots can reliably operate in complex, unfamiliar environments. I focus on understanding and improving generalization of robotic policies across perception, prediction, and reasoning by enabling large foundation models to reason with trustworthy uncertainty. 
         
     
     - title: Duke Pratt Fellows
       institution: <a href="https://scholars.duke.edu/person/stefan.goetz">Stefan Goetz</a>
-      year: Dec. 2020 — May. 2022
+      year: 2020 — 2022
       description:
-        - Develop theories and simulations on control and optimization of lattice modular multilevel converters with serial and parallel connectivity. 
-        - Obtain most efficient control algorithms for lattice converters under requirements including converter size, input/output terminals, and output voltage/current.
-
+        - I developed theories and simulations on control and optimization of lattice modular multilevel converters with serial and parallel connectivity. I obtained the most efficient control algorithms for lattice converters under requirements including converter size, input/output terminals, and output voltage/current.
+    
     - title: Duke Neutrino & Cosmology Group
       institution: <a href="https://scholars.duke.edu/person/schol">Kate Scholberg</a>
-      year: Nov. 2019 — Feb. 2021
+      year: 2019 — 2021
       description: 
-        - Qork on SNEWS (Supernova Early Warning System), produce sky maps with predicted supernova location and uncertainty intervals. 
-        - Analyze neutrino events detected at the Super-Kamiokande Detector.
-
+        - I worked on SNEWS (Supernova Early Warning System), produced sky maps with predicted supernova location and uncertainty intervals. I also analyze neutrino events detected at the Super-Kamiokande Detector.
 - title: Work and Leadership Experience
   type: time_table
   contents: 
     - title: DukeEngage in Detroit
       institution: Consulting Intern, TechTown Detroit
-      year: Jun. 2021 — Aug. 2021
+      year: 2021
       description:
         - Analyzed TechTown programs via interviews with program directors and clients.
         - Provided suggestions for improving each program as well as recommendations for potential collaborations across programs.
@@ -67,20 +56,22 @@
     
     - title: Duke Motorsports Team
       institution: Wheels Subsystem Lead 
-      year: Sept. 2019 — Present
+      year: 2019 — 2022
       description:
         - Engaged other students to build and assemble wheels for the car competing in 2020 and 2021.
         - Designed, modified, and performed analysis on the wheels for the car competing in 2021.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/irom-lab/performance-limits">Fundamental Limits for Sensor-Based Robot Control</a>
-      year: 2022 - 2023
-      description: Our goal is to develop theory and algorithms for establishing fundamental limits on performance for a given task imposed by a robot's sensors. In order to achieve this, we define a quantity that captures the amount of task-relevant information provided by a sensor. Using a novel version of the generalized Fano inequality from information theory, we demonstrate that this quantity provides an upper bound on the highest achievable expected reward for one-step decision making tasks. We then extend this bound to multi-step problems via a dynamic programming approach. We present algorithms for numerically computing the resulting bounds, and demonstrate our approach on three examples, (i) the lava problem from the literature on partially observable Markov decision processes, (ii) an example with continuous state and observation spaces corresponding to a robot catching a freely-falling object, and (iii) obstacle avoidance using a depth sensor with non-Gaussian noise. We demonstrate the ability of our approach to establish strong limits on achievable performance for these problems by comparing our upper bounds with achievable lower bounds (computed by synthesizing or learning concrete control policies).
-    - title: <a href="https://github.com/irom-lab/perception-guarantees">Perceive with Confidence | End-to-End Safety Assurances for Robot Navigation</a>
-      year: 2023 - 2024
-      description: Rapid advances in perception have enabled large pre-trained models to be used out of the box for processing high-dimensional, noisy, and partial observations of the world into rich geometric representations (e.g., occupancy predictions). However, safe integration of these models onto robots remains challenging due to a lack of reliable performance in unfamiliar environments. In this work, we present a framework for rigorously quantifying the uncertainty of pre-trained perception models for occupancy prediction in order to provide end-to-end statistical safety assurances for navigation. We build on techniques from conformal prediction for producing a calibrated perception system that lightly processes the outputs of a pre-trained model while ensuring generalization to novel environments and robustness to distribution shifts in states when perceptual outputs are used in conjunction with a planner. The calibrated system can be used in combination with any safe planner to provide an end-to-end statistical assurance on safety in a new environment with a user-specified threshold 1-epsilon. We evaluate the resulting approach — which we refer to as Perceive with Confidence (PwC) - with experiments in simulation and on hardware where a quadruped robot navigates through indoor environments containing objects unseen during training or calibration. These experiments validate the safety assurances provided by PwC and demonstrate significant improvements in empirical safety rates compared to baselines.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/irom-princeton/s-qubed">How Confident are Video Models? Empowering Video Models to Express their Uncertainty</a>
+#     - title: <a href="
+#     - title: <a href="https://github.com/irom-lab/performance-limits">Fundamental Limits for Sensor-Based Robot Control</a>
+#       year: 2022 - 2023
+#       # description: Our goal is to develop theory and algorithms for establishing fundamental limits on performance for a given task imposed by a robot's sensors. In order to achieve this, we define a quantity that captures the amount of task-relevant information provided by a sensor. Using a novel version of the generalized Fano inequality from information theory, we demonstrate that this quantity provides an upper bound on the highest achievable expected reward for one-step decision making tasks. We then extend this bound to multi-step problems via a dynamic programming approach. We present algorithms for numerically computing the resulting bounds, and demonstrate our approach on three examples, (i) the lava problem from the literature on partially observable Markov decision processes, (ii) an example with continuous state and observation spaces corresponding to a robot catching a freely-falling object, and (iii) obstacle avoidance using a depth sensor with non-Gaussian noise. We demonstrate the ability of our approach to establish strong limits on achievable performance for these problems by comparing our upper bounds with achievable lower bounds (computed by synthesizing or learning concrete control policies).
+#     - title: <a href="https://github.com/irom-lab/perception-guarantees">Perceive with Confidence | End-to-End Safety Assurances for Robot Navigation</a>
+#       year: 2023 - 2024
+#       # description: Rapid advances in perception have enabled large pre-trained models to be used out of the box for processing high-dimensional, noisy, and partial observations of the world into rich geometric representations (e.g., occupancy predictions). However, safe integration of these models onto robots remains challenging due to a lack of reliable performance in unfamiliar environments. In this work, we present a framework for rigorously quantifying the uncertainty of pre-trained perception models for occupancy prediction in order to provide end-to-end statistical safety assurances for navigation. We build on techniques from conformal prediction for producing a calibrated perception system that lightly processes the outputs of a pre-trained model while ensuring generalization to novel environments and robustness to distribution shifts in states when perceptual outputs are used in conjunction with a planner. The calibrated system can be used in combination with any safe planner to provide an end-to-end statistical assurance on safety in a new environment with a user-specified threshold 1-epsilon. We evaluate the resulting approach — which we refer to as Perceive with Confidence (PwC) - with experiments in simulation and on hardware where a quadruped robot navigates through indoor environments containing objects unseen during training or calibration. These experiments validate the safety assurances provided by PwC and demonstrate significant improvements in empirical safety rates compared to baselines.
 
 
 - title: Honors and Awards

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Side Projects
+title: Art
 permalink: /projects/
 description: A collection of my cool side projects.
 nav: true

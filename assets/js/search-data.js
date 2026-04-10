@@ -383,49 +383,51 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-gave-a-talk-at-apple-reading-group-on-trustworthy-world-modeling-sparkles",
+          title: 'I gave a talk at Apple reading group on Trustworthy World Modeling! :sparkles:...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-gave-a-talk-at-intent-lab-on-trustworthy-world-modeling-sparkles",
+          title: 'I gave a talk at Intent Lab on Trustworthy World Modeling! :sparkles:',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-gave-a-talk-at-google-deepmind-reading-group-on-playworld-with-tenny-yin-and-ola-shorinwa-sparkles",
+          title: 'I gave a talk at Google DeepMind reading group on PlayWorld with Tenny...',
           description: "",
-          section: "News",},{id: "projects-cosplay",
+          section: "News",},{id: "projects-art-music-videos",
+          title: 'Art Music Videos',
+          description: "Hand-drawn animation music videos! They take so long but are very fun!",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/art_mv.html";
+            },},{id: "projects-cosplay",
           title: 'Cosplay',
           description: "Yes I&#39;m also a cosplayer 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cosplay.html";
+            },},{id: "projects-dance",
+          title: 'Dance',
+          description: "Dance and member of Princeton HUA Chinese Dance! Cool performances and pretty photos here 🩰",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dance.html";
+            },},{id: "projects-paintings-amp-drawings",
+          title: 'Paintings &amp;amp; Drawings',
+          description: "Oil painting, watercolor, and digital! Some painted after masterpieces, and lots of fan art!",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/painting.html";
+            },},{id: "projects-music",
+          title: 'Music',
+          description: "Piano 🎹 and Guitar 🎸, I&#39;m not great but I enjoy them!",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/piano.html";
             },},{id: "projects-regrexion",
           title: 'RegreXion',
           description: "A game I&#39;m developing :)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/regrexion.html";
+            },},{id: "projects-skating",
+          title: 'Skating',
+          description: "Synchro and ice dance!",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/skating.html";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6D%61%79%6D%65%69@%70%72%69%6E%63%65%74%6F%6E.%65%64%75", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/zhiting-may-mei-a94a60153", "_blank");
-        },
-      },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0003-1831-8335", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -438,6 +440,27 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/May_Z_Mei", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/zhiting-may-mei-a94a60153", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6D%61%79%6D%65%69@%70%72%69%6E%63%65%74%6F%6E.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-1831-8335", "_blank");
         },
       },{
       id: 'light-theme',

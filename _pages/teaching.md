@@ -8,6 +8,8 @@ nav_order: 4
 ---
 
 ### Princeton University
+- MAE 206: Introduction to Engineering Dynamics
+    - [Prof. Anirudha Majumdar](https://irom-lab.princeton.edu/majumdar)
 - MAE 345/549: Introduction to Robotics
     - [Prof. Radhika Nagpal](https://www.radhikanagpal.org/)
     - [Prof. Anirudha Majumdar](https://irom-lab.princeton.edu/majumdar)

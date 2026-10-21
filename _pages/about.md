@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a fourth-year PhD Student at [IRoM Lab](https://irom-lab.princeton.edu/) in [Princeton](https://www.princeton.edu/).
+Hi! I'm a fifth-year PhD Student at [IRoM Lab](https://irom-lab.princeton.edu/) in [Princeton](https://www.princeton.edu/).
 
 My research vision is to build capable, reliable, and trustworthy robots that can operate safely in the open world by understanding and managing uncertainty.
 To realize this vision, my work focuses on establishing both theoretical foundations and practical algorithms for uncertainty-aware embodied intelligence.

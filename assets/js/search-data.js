@@ -383,11 +383,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-i-m-starting-a-research-internship-at-apple-mechanical-arm",
-          title: 'I’m starting a research internship at Apple! :mechanical_arm:',
+            },},{id: "news-i-m-starting-a-research-internship-at-apple",
+          title: 'I’m starting a research internship at Apple! ',
           description: "",
           section: "News",},{id: "news-i-was-honored-to-join-the-2026-rising-stars-in-mechanical-engineering-workshop-at-stanford-many-thanks-to-xun-wendy-gu-and-allison-okamura-for-organizing-such-a-wonderful-workshop",
           title: 'I was honored to join the 2026 Rising Stars in Mechanical Engineering workshop...',
+          description: "",
+          section: "News",},{id: "news-i-m-very-honored-to-receive-the-google-phd-fellowship-this-year",
+          title: 'I’m very honored to receive the Google PhD Fellowship this year!',
           description: "",
           section: "News",},{id: "projects-art-music-videos",
           title: 'Art Music Videos',
